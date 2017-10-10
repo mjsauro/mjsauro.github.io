@@ -2,6 +2,18 @@
 li {
   text-decoration: none;
 }
+aside section div div ul {
+  text-align: justify;
+}
+aside section div div ul li {
+  display: block;
+}
+aside section ul {
+  text-align: center;
+}
+aside section ul li {
+  display: inline;
+}
 body {
   background-attachment: scroll;
   background-image: url(images/chicago.jpeg);
@@ -36,14 +48,32 @@ img {
   padding-right: 1em;
 }
 .jumbotron li {
-  list-style: none;
   font-size: 3em;
+  list-style: none;
+}
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
 }
 .navbar-right {
   margin-right: 1em;
 }
 .navbar-right a {
   color: cadetblue;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.15);
+  background-image: none;
+  border: 1px solid #444;
+  border-radius: 4px;
 }
 .transparent {
   background-color: rgba(0, 0, 0, 0.15);

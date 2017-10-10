@@ -23,44 +23,48 @@
 </head>
 
 <header>
-    <div class="container-fluid">
-        <nav class="navbar">
+    <nav class="navbar">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <span class="h1" class="navbar-brand mb-0">Mathew J. Sauro</span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">Matthew J. Sauro</a>
             </div>
-            <div class="navbar-nav navbar-right">
-                <ul class="flex-sm-col list-inline">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="about-me">About Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
             </div>
-        </nav>
         </div>
+    </nav>
 </header>
 <div class="container-fluid">
 
     <body>
         <div class="row transparent">
-
-            <article class="col-xs-12 col-md-4">
+            <article class="col-md-4">
                 <section class="jumbotron">
                     <h2>About Me</h2>
                     <p>My name is Matthew J. Sauro. I moved to Chicago in 2010 and worked for a title insurance company for 7 years. I have always been interested in coding and I decided to take the plunge and enrolled in a bootcamp called Coding Temple. My skills include C#, Git, HTML/CSS, Javascript, JQuery, Angular, SQL, and ASP.Net</p>
                 </section>
 
             </article>
-            <aside class="col-xs-6 col-md-4" align="center">
+            <aside class="col-md-4" align="center">
                 <section class="jumbotron">
                     <img class="img-fluid img-circle max-width" id="mattpic" src="images/mattsauro.jpg" alt="Picture of Matt Sauro" />
                 </section>
             </aside>
-            <aside class="col-xs-6 col-md-4">
+            <aside class="col-md-4">
                 <section class="jumbotron">
-                    <div class="panel panel-default panel-transparent">
-                        <div class="panel-body">
-                            <ul>
+                    <div class="panel panel-default panel-transparent hidden-xs hidden-sm">
+                        <div class="panel-body hidden-sx hidden-sm">
+                            <ul class="hidden-xs hidden-sm">
                                 <li><a href="mailto: mjsauro@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a><span class="hidden-xs hidden-sm">Email</span></li>
                                 <li><a href="https://www.linkedin.com/in/matthew-sauro-20b77114/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a><span class="hidden-xs hidden-sm">LinkedIn</span></li>
                                 <li><a href="https://github.com/mjsauro"><i class="fa fa-git" aria-hidden="true"></i></a><span class="hidden-xs hidden-sm">GitHub</span></li>
@@ -68,6 +72,12 @@
                             </ul>
                         </div>
                     </div>
+                    <ul class="visible-xs visible-sm">
+                        <li><a href="mailto: mjsauro@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/matthew-sauro-20b77114/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/mjsauro"><i class="fa fa-git" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/matt.sauro"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    </ul>
                 </section>
             </aside>
 
