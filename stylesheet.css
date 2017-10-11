@@ -24,6 +24,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+header {
+  z-index: 1;
+}
 header li {
   display: inline;
   padding: 1em;
@@ -39,6 +42,7 @@ img {
 }
 .carousel {
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 .carousel .carousel-inner > .item > img {
   margin: 0 auto;
