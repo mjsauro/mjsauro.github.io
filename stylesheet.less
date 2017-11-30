@@ -24,13 +24,13 @@ body {
     padding-top: 50px;
 }
 
-
-
-
 li {
+    color: white;
     list-style: none;
     text-decoration: none;
 }
+
+
 
 p {
     padding: 1em;
@@ -39,6 +39,13 @@ p {
 .about,
 .title {
     color: white;
+}
+
+.background {
+    background: url(/images/brick.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box {
@@ -62,15 +69,22 @@ p {
 
 @media only screen and (max-width:768px) {
 
+    body {
+        padding-top: 0px;
+    }
+
+    ul {
+        flex-direction: column
+    }
     .box {
         margin-bottom: 0px;
         margin-top: 0px;
         padding-bottom: 0px;
         padding-top: 0px;
     }
-    .navbar-fixed-top {
 
-        position: static;
+    .fixed-top {
+        position: static
     }
 
 }
