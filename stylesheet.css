@@ -30,24 +30,50 @@ p {
 .title {
   color: white;
 }
-.background {
-  background: url(/images/brick.jpeg);
+.background-about {
+  background: url(images/lights.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.box {
-  padding-top: 3em;
-  padding-bottom: 3em;
+.background-contact {
+  background: url(images/contactme.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.box-contact {
-  background-color: rgba(255, 255, 250, 0.7);
+.background-home {
+  background: url(images/chicago-night.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background-portfolio {
+  background: url(images/bricks.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card {
+  background-color: rgba(255, 255, 250, 0.5);
+  margin-bottom: 10em;
+  margin-top: 10em;
+}
+.card-subtitle {
+  margin-top: 1em;
 }
 .container-fluid {
   padding: 0px;
 }
+.transparent {
+  background-color: rgba(255, 255, 250, 0.5);
+  margin-top: 2em;
+}
 #item {
   font-size: 2em;
+}
+#mattpic {
+  padding: 1em;
 }
 @media only screen and (max-width: 768px) {
   body {
@@ -64,5 +90,16 @@ p {
   }
   .fixed-top {
     position: static;
+  }
+}
+@media only screen and (max-width: 321px) {
+  a,
+  i,
+  li {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  #item {
+    display: none;
   }
 }
