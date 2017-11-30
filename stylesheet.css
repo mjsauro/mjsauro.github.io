@@ -4,106 +4,52 @@
   font-family: arial, sans-serif;
   border-bottom: 1px;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  border: none;
+  color: none;
+}
+a,
+i {
+  color: white;
+}
+body {
+  padding-top: 50px;
+}
 li {
   list-style: none;
   text-decoration: none;
 }
-a {
-  text-decoration: none;
-}
-aside section div div ul {
-  text-align: justify;
-}
-aside section div div ul li {
-  display: block;
-}
-aside section ul {
-  text-align: center;
-}
-aside section ul li {
-  display: inline;
-}
-body {
-  background-attachment: fixed;
-  background-image: url(images/chicago-night.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 10em;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-header {
-  z-index: 1;
-}
-header li {
-  display: inline;
+p {
   padding: 1em;
 }
-header span {
-  color: white;
-  font-size: 4em;
-}
-i {
+.about,
+.title {
   color: white;
 }
-.carousel {
-  margin-top: 1em;
-  margin-bottom: 1em;
+.box {
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
-.carousel .carousel-inner > .item > img {
-  margin: 0 auto;
-  width: 25%;
-}
-.jumbotron {
-  background: transparent;
-  color: white;
-}
-.jumbotron i {
-  padding-right: 1em;
-}
-.jumbotron li {
-  font-size: 3em;
-  list-style: none;
-}
-.icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-.navbar {
-  z-index: 1;
-}
-.navbar-right {
-  margin-right: 1em;
-}
-.navbar-right a {
-  color: cadetblue;
-}
-.navbar-toggle {
-  background-image: none;
-  border: 1px solid #444;
-  border-radius: 4px;
-  float: right;
-  padding: 9px 10px;
-  position: relative;
-  margin-top: 8px;
-  margin-right: 15px;
-  margin-bottom: 8px;
-}
-.panel {
+.box-contact {
   background-color: rgba(255, 255, 250, 0.7);
-  margin-top: 3em;
-  margin-bottom: 5em;
 }
-.panel a {
-  color: black;
+.container-fluid {
+  padding: 0px;
 }
-#carouselImg {
-  margin: 0 auto;
-  width: 75%;
+#item {
+  font-size: 2em;
 }
-#iconsHorizontal {
-  padding: 2em 2em 2em 2em;
-  display: inline;
+@media only screen and (max-width: 768px) {
+  .box {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .navbar-fixed-top {
+    position: static;
+  }
 }
