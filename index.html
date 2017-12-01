@@ -29,17 +29,39 @@
 
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="nav nav-navbar justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link smoothScroll" href="#about-me">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link smoothScroll" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Me</a>
-            </li>
-        </ul>
+        <div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link smoothScroll" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smoothScroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+        <div class="justify-content-end">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto: mjsauro@gmail.com ">
+                    <i class="fa fa-envelope-o fa-2x fa-fw "></i>
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/matthew-sauro-20b77114/ ">
+                    <i class="fa fa-linkedin-square fa-2x fa-fw " aria-hidden="true "></i>
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/mjsauro ">
+                    <i class="fa fa-git fa-fw fa-2x " aria-hidden="true ">
+                    </i>
+                </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -129,32 +151,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js " integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin=" anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js " integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top - 60
-                    }, 800, function() {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-
-    </script>
+    <script src="scroll.js"></script>
 </body>
 
 </html>
