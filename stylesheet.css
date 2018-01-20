@@ -4,36 +4,13 @@
   font-family: arial, sans-serif;
   border-bottom: 1px;
 }
-a {
-  text-decoration: none;
-}
-a:hover {
-  border: none;
-  color: none;
-  text-decoration: none;
-}
-a,
-i {
-  color: black;
-}
 body {
-  padding-top: 50px;
+  padding-top: 65px;
 }
 li {
   color: white;
   list-style: none;
   text-decoration: none;
-}
-nav a,
-nav i {
-  color: white;
-}
-p {
-  padding: 1em;
-}
-.about,
-.title {
-  color: black;
 }
 .background-about {
   background: url(images/lights.jpg);
@@ -60,39 +37,9 @@ p {
   background-repeat: no-repeat;
 }
 .card {
-  background-color: rgba(255, 255, 250, 0.3);
-  margin-bottom: 10em;
-  margin-top: 10em;
-}
-.card-subtitle {
-  margin-top: 1em;
-}
-.card-foot {
-  vertical-align: bottom;
-}
-.container-fluid {
-  padding: 0px;
-}
-.transparent {
-  background-color: rgba(255, 255, 250, 0.5);
-  margin-top: 2em;
-}
-#button {
-  padding-left: 0px;
-  text-decoration: none;
-}
-#item {
-  font-size: 2em;
-}
-#itemEmail {
-  font-size: 2em;
-  color: black;
-}
-#itemEmail:hover {
-  color: blue;
-}
-#mattpic {
-  padding: 1em;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5em;
+  margin-top: 5em;
 }
 @media only screen and (max-width: 768px) {
   body {
@@ -100,12 +47,6 @@ p {
   }
   ul {
     flex-direction: column;
-  }
-  .box {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
   .fixed-top {
     position: static;
@@ -119,6 +60,6 @@ p {
     margin-bottom: 1em;
   }
   #item {
-    display: none;
+    display: hide;
   }
 }
