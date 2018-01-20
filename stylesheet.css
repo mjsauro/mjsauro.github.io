@@ -41,6 +41,23 @@ li {
   margin-bottom: 5em;
   margin-top: 5em;
 }
+a,
+i,
+h3,
+li,
+.btn,
+.card,
+.card-body,
+.card-header,
+.nav-item,
+.nav-link,
+#portfolio {
+  color: white;
+}
+.fa:hover,
+.nav-link:hover {
+  color: #1d7097;
+}
 @media only screen and (max-width: 768px) {
   body {
     padding-top: 0px;
