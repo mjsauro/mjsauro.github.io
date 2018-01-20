@@ -3,6 +3,14 @@
   font-family: arial, sans-serif;
   border-bottom: 1px;
 }
+a,
+i,
+h3,
+.btn,
+.card,
+.card-body {
+  color: white;
+}
 body {
   padding-top: 65px;
 }
@@ -36,17 +44,12 @@ li {
   background-repeat: no-repeat;
 }
 .card {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   margin-bottom: 5em;
   margin-top: 5em;
 }
-a,
-i,
-h3,
-.btn,
-.card,
-.card-body {
-  color: white;
+.jumbotron {
+  background: rgba(0, 0, 0, 0.7);
 }
 .fa:hover,
 .nav-link:hover {
