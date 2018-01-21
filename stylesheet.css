@@ -55,6 +55,10 @@ li {
 .nav-link:hover {
   color: #1d7097;
 }
+.card-margin {
+  margin-bottom: 10em;
+  margin-top: 10em;
+}
 @media only screen and (max-width: 768px) {
   body {
     padding-top: 0px;
