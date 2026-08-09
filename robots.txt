@@ -1,0 +1,19 @@
+# The archived 2018 portfolio under /archive/ is superseded by the current site.
+#
+# Its pages are kept OUT of this file on purpose. They carry a "noindex" meta tag,
+# and a crawler can only honour that tag if it is still allowed to fetch the page.
+# Disallowing /archive/ here would block the fetch, hide the noindex, and leave the
+# URLs eligible to appear in results as bare links — the opposite of the intent.
+#
+# Files that cannot carry a meta tag are a different matter. GitHub Pages does not
+# allow custom response headers, so there is no X-Robots-Tag available for them,
+# and robots.txt is the only lever left.
+
+User-agent: *
+
+# The resume PDF: a 2018 document, linked from the archive for posterity.
+Disallow: /archive/documents/
+
+# Project screenshots. Images can be indexed independently of the noindexed page
+# they appear on, so they are blocked here rather than left to image search.
+Disallow: /archive/images/
