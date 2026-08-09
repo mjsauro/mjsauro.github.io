@@ -106,7 +106,7 @@
                         <div class="card-body">
                             <p class="lead card-text text-justify ">My name is Matthew J. Sauro. I'm a Full Stack .NET
                                 Developer from Chicago.
-                                I am interested in new job opportunities and networking.</p>
+                                I am interested in networking.</p>
                             <p class="lead card-text text-justify ">
                                 Tools: C#, VB / Visual Basic, .NET Framework, .NET Core, Entity Framework, ASP.NET,
                                 Classic ASP, Web APIs, Microservices, REST, JSON, XML, Unit Testing xUnit, Moq, MVC5,
@@ -154,7 +154,7 @@
                                     Bootstrap.</p>
                             </div>
                             <div class="card-footer">                               
-                                <a href="#">This app is currently down and is being ported to .Net Core 3.1.  The code is available to view on Github.</a>
+                                <a href="https://github.com/mjsauro/GuitarStore">The code is available to view on Github.</a>
                             </div>
                         </div>
 
@@ -376,7 +376,20 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="https://formspree.io/mjsauro@gmail.com">
+                    <!-- This form posted to https://formspree.io/<email>, an endpoint format
+                         Formspree has since retired. Rather than leave it to fail silently,
+                         it is disabled and kept visible as part of the archived page. -->
+                    <div class="alert alert-secondary" role="alert">
+                        <strong>This form is no longer connected.</strong> It used to post to
+                        Formspree, which forwarded the message to my inbox &mdash; but that
+                        endpoint format has since been retired, so anything sent here would go
+                        nowhere. It is left in place, disabled, as part of the archived page.
+                        <hr>
+                        To actually reach me, please use
+                        <a href="https://d12uot6ivwmo30.cloudfront.net/">my current portfolio</a>.
+                    </div>
+                    <form>
+                        <fieldset disabled>
                         <div class="form-group">
                             <label for="name">Name:</label>
                             <input class="form-control" type="text" name="name" placeholder="Your name" required>
@@ -401,6 +414,7 @@
                             <button type="reset" class="btn btn-secondary">Reset</button>
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
+                        </fieldset>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -448,7 +462,7 @@
         }
     </style>
     <div id="archive-banner">
-        Archived &mdash; this is my original 2020 portfolio, kept for posterity. Some project links no longer resolve.
+        Archived &mdash; this is my original 2020 portfolio, kept for posterity. The projects below are archived too, and several now read replacement APIs since the originals shut down.
         <a href="https://d12uot6ivwmo30.cloudfront.net/">View the current portfolio &rarr;</a>
     </div>
 </body>
